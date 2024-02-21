@@ -11,6 +11,10 @@ Scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 Proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 :insetto: Ricordate di usare il console.log() sia in fase di preparazione e verifica dei dati che ovviamente durante il degugging per scovare potenziali errori!
 
+### BONUS 1:
+Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un elemento html con il numero o la stringa corretta da mostrare.
+
+
 ## Steps
 - STEPS CONSEGNA
 - creo un ciclo for in cui vedo tutti i numeri da 1 a 100
@@ -27,6 +31,10 @@ Proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro program
  ALLORA
     scrivo il numero al quale sono arrivato
 
+- STEPS FIRST BONUS
+    quando creo un li voglio crearne uno sotto pari al numero di variabili che vengono create per farlo
+    - creo una variabile per fare più li? 
+    
 ### Tools
 - const
 - if()

@@ -9,11 +9,10 @@ const fizzbuzz = 'FizzBuzz'
 const ul = document.querySelector('ul.full_list')
 console.log(ul);
 const li = document.createElement('li');//mi permette semplicemente di aggiungere un li figo
+//posso usarlo per dargli una classe così da poterlo far diventare un quadrato tramite css
 console.log(li);
 
-li.append('hola')
-ul.append(li);
-
+const elementAdd = document.querySelector('.full_list')
 
 
 
@@ -22,20 +21,22 @@ for (let i = 1; i <= 100; i++){
     if (i % 3 == 0) {
         if (i % 5 == 0) {
             console.log(fizzbuzz); //first milestone
-            li.append(fizzbuzz)
-            ul.append(li);
+        elementAdd.innerHTML +=`<li>${fizzbuzz}</li> ` 
+
+            
         }else{
             console.log(fizz); //first milestone
-            li.append(fizz)
-            ul.append(li);
+        elementAdd.innerHTML +=`<li>${fizz}</li> ` 
+
+            
         } //end if inside
     }else if(i % 5 == 0){
         console.log(buzz); //first milestone
-        li.append(buzz)
-        ul.append(li);
+        elementAdd.innerHTML +=`<li>${buzz}</li> ` 
+
+        
     }else{
         console.log(i); //first milestone
-        li.append(i)
-        ul.append(li);
+        elementAdd.innerHTML +=`<li>${i}</li> ` 
     }
 }
