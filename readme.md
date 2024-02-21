@@ -28,6 +28,6 @@ Proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro program
     scrivo il numero al quale sono arrivato
 
 ### Tools
+- const
 - if()
 - display.log
-- 
