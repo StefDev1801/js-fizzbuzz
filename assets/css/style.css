@@ -5,3 +5,40 @@
     --fb-bg_numbers:#1389b2;
     --fb-bg_fizzbuzz:#f0466f;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--fb-bg_body);
+}
+.full_list{
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+.square{
+    width: calc(( 100%/7 ) - 2px );
+    aspect-ratio: 1;
+    background-color: orchid;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fizzbuzz{
+    color: red;
+}
+.fizz{
+    color: blue;
+}
+.buzz{
+    color: green;
+}
+.number{
+    color: aqua;
+}
